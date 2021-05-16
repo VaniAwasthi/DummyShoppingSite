@@ -1,0 +1,90 @@
+.mainDiv {
+    margin: 0;
+    font-family: Arial;
+    background-color:goldenrod;
+  }
+  .footer{
+    background-color: black;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color:black;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    box-sizing: border-box;
+  }
+  
+  .topnav a:hover {
+    background-color:white;
+    color: black;
+  }
+  
+  a.active:hover{
+      background-color:darkgreen ;
+      color:black;
+}
+ .dress{
+  width: 200px;
+  margin: 2rem 2rem;
+  height: 300px;
+  background-color: black !important;
+  color: white;
+  padding: 10px 5px;
+ cursor: pointer;
+  transition: transform .2s;  
+}
+.dress img{
+  width: 150px;
+  height: 150px;
+  margin:auto;
+ 
+}
+.dress:hover{
+  transform: scale(1.2);
+}
+.row{
+  clear: both;
+  display: flex;
+  flex-direction: row;
+}
+.footer{
+  background-color: black;
+  color: white;
+  height:200px;
+  position:relative;
+  text-align: center;
+  
+  
+}
+
+.fa {
+  padding: 0px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: white;
+  margin:0px;
+  border-radius:10px;
+  align-items: center;
+  display:flex;
+  
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+a i{
+  transition: all 0.3s linear;
+  color:white;
+}
+
+
